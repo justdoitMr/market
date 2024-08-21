@@ -1,0 +1,5 @@
+package bugcode.online.types;
+
+/**
+ * 
+ */
