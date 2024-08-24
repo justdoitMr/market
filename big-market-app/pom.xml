@@ -12,6 +12,14 @@
     <packaging>jar</packaging>
 
     <dependencies>
+
+<!--        引入数据层依赖-->
+        <dependency>
+            <groupId>bugcode.online</groupId>
+            <artifactId>big-market-infrastructure</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -84,9 +92,17 @@
             <groupId>bugcode.online</groupId>
             <artifactId>big-market-trigger</artifactId>
         </dependency>
+
         <dependency>
             <groupId>bugcode.online</groupId>
             <artifactId>big-market-infrastructure</artifactId>
+        </dependency>
+
+<!--        redis客户端工具-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.26.0</version>
         </dependency>
     </dependencies>
 
